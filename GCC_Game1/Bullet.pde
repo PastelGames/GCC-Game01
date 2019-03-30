@@ -2,7 +2,7 @@ class Bullet {
 
 float x = width / 2;
 float y = height / 2;
-float bulletSpeed = 5;
+float bulletSpeed = 15;
 
 void launchRight() {
   x = x + bulletSpeed;
